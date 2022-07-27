@@ -42,8 +42,12 @@ nav ul li a {
 }
 
 .detel {
-  margin-left: 10rem;
+  padding-left: 10rem;
   margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  background-color: rgba(90, 90, 90, 0.7);
 }
 
 .detel h1 {
