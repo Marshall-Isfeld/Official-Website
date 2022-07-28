@@ -4,12 +4,17 @@
   font-family: sans-serif;
 }
 
+body {
+  height: 100vh;
+  background-image: url(/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .hero {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url(/background.jpg);
-  background-position: center;
 }
 
 nav{
@@ -70,6 +75,25 @@ span {
   color: rgb(255, 196, 0);
 }
 
-.project-container {
-  background-color: aqua;
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-container img {
+  height: 20rem;
+  width: 24rem;
+}
+
+.project-container p{
+  text-align: center;
+  color: white;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+  font-size: 1rem;      
 }
