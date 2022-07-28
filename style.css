@@ -70,6 +70,10 @@ nav ul li a {
         -0.07em 0 black,
         0 -0.07em black;
 }
+.detel h3 {
+  text-align: center;
+  font-size: 4rem;
+}
 
 span {
   color: rgb(255, 196, 0);
@@ -81,13 +85,21 @@ span {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.projects a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+  transition: 0.5s ease-in-out;
+}
 
 .project-container img {
   height: 20rem;
   width: 24rem;
 }
 
-.project-container p{
+.project-container {
   text-align: center;
   color: white;
   text-shadow:
@@ -95,5 +107,11 @@ span {
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
-  font-size: 1rem;      
+  font-size: 1.4rem;      
+}
+
+.info {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
