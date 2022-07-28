@@ -53,6 +53,7 @@ nav ul li a {
 }
 
 .detel h1 {
+  text-align: left;
   color: white;
     font-size: 3rem;
     text-shadow:
@@ -64,6 +65,7 @@ nav ul li a {
 }
 
 .detel h2 {
+  text-align: left;
   color: white;
   text-shadow:
         0.07em 0 black,
@@ -75,7 +77,11 @@ nav ul li a {
   text-align: center;
   font-size: 4rem;
 }
-
+.detel a {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
 span {
   color: rgb(255, 196, 0);
 }
@@ -115,4 +121,14 @@ a:hover{
   margin-top: 1rem;
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+.projectText {
+  color: white;
+    text-shadow:
+   0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+     0 -0.07em black;
+     margin-bottom: 2rem;
 }
