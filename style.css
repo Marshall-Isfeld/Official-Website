@@ -3,10 +3,12 @@
   padding: 0;
   font-family: sans-serif;
 }
+.container {
+height: 1080px;
+}
+
 
 body {
-  height: 100%;
-  width: 100%;
   background-image: url(images/background.jpg);
   background-position: center;
   background-size: cover;
@@ -41,10 +43,13 @@ nav ul li a {
 }
 
 .detel {
-  padding-left: 6rem;
-  margin-top: 15rem;;
+display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -84,7 +89,7 @@ span {
 
 .projects {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
