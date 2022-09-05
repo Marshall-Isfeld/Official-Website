@@ -11,8 +11,12 @@ height: 100vh;
 body {
   background-image: url(images/background.jpg);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
 }
 
 
