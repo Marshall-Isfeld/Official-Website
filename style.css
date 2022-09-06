@@ -16,7 +16,6 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -54,7 +53,7 @@ display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .detel h1 {
@@ -107,8 +106,8 @@ a:hover{
 }
 
 .project-container img {
-  height: 20rem;
-  width: 24rem;
+  height: 15rem;
+  width: 20rem;
 }
 
 .project-container {
