@@ -92,7 +92,7 @@ span {
 
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -108,6 +108,7 @@ a:hover{
 .project-container img {
   height: 15rem;
   width: 20rem;
+  margin-top: 1rem;
 }
 
 .project-container {
